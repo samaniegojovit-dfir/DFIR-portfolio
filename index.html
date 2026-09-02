@@ -1,346 +1,335 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="DFIR and threat research portfolio featuring published cybersecurity research, incident response analysis, malware research, and security investigations.">
     <title>DFIR & Threat Research Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="container">
-            <p class="eyebrow">DIGITAL FORENSICS & INCIDENT RESPONSE</p>
+<header>
+    <div class="container">
+        <div class="eyebrow">DIGITAL FORENSICS & INCIDENT RESPONSE</div>
 
-            <h1>DFIR & Threat Research Portfolio</h1>
+```
+    <h1>DFIR & Threat Research Portfolio</h1>
 
-            <p class="subtitle">
-                Threat research, incident response, malware analysis, and cybersecurity investigations.
+    <p class="subtitle">
+        Threat research, incident response, malware analysis, and cybersecurity investigations.
+    </p>
+
+    <div class="header-links">
+        <a href="#research" class="button primary">View Research</a>
+        <a href="https://github.com/samaniegojovit-dfir/DFIR-portfolio"
+           class="button secondary"
+           target="_blank"
+           rel="noopener noreferrer">GitHub Repository</a>
+    </div>
+</div>
+```
+
+</header>
+
+<nav>
+    <div class="container">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#expertise">Areas of Research</a>
+        <a href="#links">Links</a>
+    </div>
+</nav>
+
+<main>
+
+<section class="intro-section">
+    <div class="container narrow">
+        <p class="intro">
+            This portfolio documents selected published research and investigations
+            covering threat activity, malware delivery, phishing, credential theft,
+            cloud security, and incident response.
+        </p>
+    </div>
+</section>
+
+<section id="research">
+    <div class="container">
+
+```
+    <div class="section-heading">
+        <div class="section-label">SELECTED WORK</div>
+        <h2>Highlighted Threat Research</h2>
+    </div>
+
+    <div class="research-grid">
+
+        <article class="card featured">
+            <div class="card-header">
+                <span class="badge authored">AUTHORED</span>
+                <span class="date">August 14, 2026</span>
+            </div>
+
+            <h3>
+                <a href="https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-aitm-phishing-bypassed-mfa-to-hijack-a-microsoft-365-mailbox-in-bec-scheme"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    How AiTM Phishing Bypassed MFA to Hijack a Microsoft 365 Mailbox in BEC Scheme
+                </a>
+            </h3>
+
+            <p>
+                Analysis of an adversary-in-the-middle (AiTM) phishing campaign
+                that bypassed MFA through session-token theft and resulted in
+                the compromise of a Microsoft 365 mailbox as part of a business
+                email compromise (BEC) scheme.
             </p>
 
-            <div class="header-links">
-                <a href="#research" class="button primary">View Research</a>
-                <a href="https://github.com/samaniegojovit-dfir/DFIR-portfolio"
-                   class="button secondary"
+            <a class="read-link"
+               href="https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-aitm-phishing-bypassed-mfa-to-hijack-a-microsoft-365-mailbox-in-bec-scheme"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read research →
+            </a>
+        </article>
+
+
+        <article class="card featured">
+            <div class="card-header">
+                <span class="badge coauthored">CO-AUTHORED</span>
+                <span class="date">January 30, 2025</span>
+            </div>
+
+            <h3>
+                <a href="https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html"
                    target="_blank"
-                   rel="noopener noreferrer">GitHub Repository</a>
+                   rel="noopener noreferrer">
+                    Lumma Stealer’s GitHub-Based Delivery Explored via Managed Detection and Response
+                </a>
+            </h3>
+
+            <p>
+                Investigation into Lumma Stealer's use of GitHub-based infrastructure
+                for malware delivery through a managed detection and response perspective.
+            </p>
+
+            <p class="recognition">
+                Referenced by
+                <a href="https://attack.mitre.org/software/S1213/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    MITRE ATT&CK — S1213 Lumma Stealer
+                </a>.
+            </p>
+
+            <a class="read-link"
+               href="https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read research →
+            </a>
+        </article>
+
+
+        <article class="card featured">
+            <div class="card-header">
+                <span class="badge coauthored">CO-AUTHORED</span>
+                <span class="date">June 16, 2025</span>
             </div>
-        </div>
-    </header>
 
-    <nav>
-        <div class="container">
-            <a href="#research">Research</a>
-            <a href="#publications">Publications</a>
-            <a href="#expertise">Areas of Research</a>
-            <a href="#links">Links</a>
-        </div>
-    </nav>
+            <h3>
+                <a href="https://www.trendmicro.com/en_us/research/25/f/water-curse.html"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Clone, Compile, Compromise: Water Curse’s Open-Source Malware Trap on GitHub
+                </a>
+            </h3>
 
-    <main>
+            <p>
+                Research into Water Curse's use of open-source malware and GitHub
+                as part of a malicious delivery and compromise infrastructure.
+            </p>
 
-        <!-- INTRODUCTION -->
+            <p class="recognition">
+                Presented at TrendAI Decode 2025, Manila.
+            </p>
 
-        <section class="intro-section">
-            <div class="container narrow">
-                <p class="intro">
-                    This portfolio documents selected published research and investigations
-                    covering threat activity, malware delivery, phishing, credential theft,
-                    cloud security, and incident response.
-                </p>
+            <a class="read-link"
+               href="https://www.trendmicro.com/en_us/research/25/f/water-curse.html"
+               target="_blank"
+               rel="noopener noreferrer">
+                Read research →
+            </a>
+        </article>
+
+    </div>
+</div>
+```
+
+</section>
+
+<section id="publications" class="alternate">
+    <div class="container">
+
+```
+    <div class="section-heading">
+        <div class="section-label">PUBLICATIONS</div>
+        <h2>Other Research</h2>
+    </div>
+
+    <div class="publication-list">
+
+        <a class="publication"
+           href="https://www.trendmicro.com/en_us/research/26/e/banana-rat.html"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div>
+                <h3>Inside SHADOW-WATER-063’s Banana RAT: From Build Server to Banking Fraud</h3>
+                <span>Co-authored · May 19, 2026</span>
             </div>
-        </section>
+            <span class="arrow">→</span>
+        </a>
 
-
-        <!-- FEATURED RESEARCH -->
-
-        <section id="research">
-            <div class="container">
-
-                <div class="section-heading">
-                    <p class="section-label">SELECTED WORK</p>
-                    <h2>Highlighted Threat Research</h2>
-                </div>
-
-                <div class="research-grid">
-
-                    <!-- AiTM / BEC -->
-
-                    <article class="card featured">
-                        <div class="card-header">
-                            <span class="badge authored">AUTHORED</span>
-                            <span class="date">August 14, 2026</span>
-                        </div>
-
-                        <h3>
-                            <a href="https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-aitm-phishing-bypassed-mfa-to-hijack-a-microsoft-365-mailbox-in-bec-scheme"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                How AiTM Phishing Bypassed MFA to Hijack a Microsoft 365 Mailbox in BEC Scheme
-                            </a>
-                        </h3>
-
-                        <p>
-                            Analysis of an adversary-in-the-middle (AiTM) phishing campaign
-                            that bypassed MFA through session-token theft and resulted in
-                            the compromise of a Microsoft 365 mailbox as part of a business
-                            email compromise (BEC) scheme.
-                        </p>
-
-                        <a class="read-link"
-                           href="https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-aitm-phishing-bypassed-mfa-to-hijack-a-microsoft-365-mailbox-in-bec-scheme"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            Read research →
-                        </a>
-                    </article>
-
-
-                    <!-- Lumma -->
-
-                    <article class="card featured">
-                        <div class="card-header">
-                            <span class="badge coauthored">CO-AUTHORED</span>
-                            <span class="date">January 30, 2025</span>
-                        </div>
-
-                        <h3>
-                            <a href="https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                Lumma Stealer’s GitHub-Based Delivery Explored via Managed Detection and Response
-                            </a>
-                        </h3>
-
-                        <p>
-                            Investigation into Lumma Stealer's use of GitHub-based
-                            infrastructure for malware delivery through a managed
-                            detection and response perspective.
-                        </p>
-
-                        <p class="recognition">
-                            Referenced by
-                            <a href="https://attack.mitre.org/software/S1213/"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                MITRE ATT&CK — S1213 Lumma Stealer
-                            </a>.
-                        </p>
-
-                        <a class="read-link"
-                           href="https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            Read research →
-                        </a>
-                    </article>
-
-
-                    <!-- Water Curse -->
-
-                    <article class="card featured">
-                        <div class="card-header">
-                            <span class="badge coauthored">CO-AUTHORED</span>
-                            <span class="date">June 16, 2025</span>
-                        </div>
-
-                        <h3>
-                            <a href="https://www.trendmicro.com/en_us/research/25/f/water-curse.html"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                Clone, Compile, Compromise: Water Curse’s Open-Source Malware Trap on GitHub
-                            </a>
-                        </h3>
-
-                        <p>
-                            Research into Water Curse's use of open-source malware and
-                            GitHub as part of a malicious delivery and compromise
-                            infrastructure.
-                        </p>
-
-                        <p class="recognition">
-                            Presented at TrendAI Decode 2025, Manila.
-                        </p>
-
-                        <a class="read-link"
-                           href="https://www.trendmicro.com/en_us/research/25/f/water-curse.html"
-                           target="_blank"
-                           rel="noopener noreferrer">
-                            Read research →
-                        </a>
-                    </article>
-
-                </div>
+        <a class="publication"
+           href="https://www.trendmicro.com/en_us/research/26/c/from-misconfigured-spring-boot-actuator-to-sharepoint-exfiltrati.html"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div>
+                <h3>From Misconfigured Spring Boot Actuator to SharePoint Exfiltration: How Stolen Credentials Bypass MFA</h3>
+                <span>Co-authored · March 18, 2026</span>
             </div>
-        </section>
+            <span class="arrow">→</span>
+        </a>
 
-
-        <!-- OTHER PUBLICATIONS -->
-
-        <section id="publications" class="alternate">
-            <div class="container">
-
-                <div class="section-heading">
-                    <p class="section-label">PUBLICATIONS</p>
-                    <h2>Other Research</h2>
-                </div>
-
-                <div class="publication-list">
-
-                    <a class="publication"
-                       href="https://www.trendmicro.com/en_us/research/26/e/banana-rat.html"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <div>
-                            <h3>Inside SHADOW-WATER-063’s Banana RAT: From Build Server to Banking Fraud</h3>
-                            <span>Co-authored · May 19, 2026</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-
-                    <a class="publication"
-                       href="https://www.trendmicro.com/en_us/research/26/c/from-misconfigured-spring-boot-actuator-to-sharepoint-exfiltrati.html"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <div>
-                            <h3>From Misconfigured Spring Boot Actuator to SharePoint Exfiltration: How Stolen Credentials Bypass MFA</h3>
-                            <span>Co-authored · March 18, 2026</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-
-                    <a class="publication"
-                       href="https://www.trendmicro.com/en_us/research/26/c/kongtuke-clickfix-abuse-of-compromised-wordpress-sites.html"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <div>
-                            <h3>Through the Lens of MDR: Analysis of KongTuke’s ClickFix Abuse of Compromised WordPress Sites</h3>
-                            <span>Co-authored · March 10, 2026</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-
-                    <a class="publication"
-                       href="https://www.trendmicro.com/en_us/research/25/b/black-basta-cactus-ransomware-backconnect.html"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <div>
-                            <h3>Black Basta and Cactus Ransomware Groups Add BackConnect Malware to Their Arsenal</h3>
-                            <span>Co-authored · March 3, 2025</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-
-                    <a class="publication"
-                       href="https://www.trendmicro.com/en_us/research/25/a/investigating-a-web-shell-intrusion-with-trend-micro--managed-xd.html"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <div>
-                            <h3>Investigating A Web Shell Intrusion With Trend Micro™ Managed XDR</h3>
-                            <span>Co-authored · January 15, 2025</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-
-                    <a class="publication"
-                       href="https://www.trendmicro.com/en_us/research/24/l/darkgate-malware.html"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        <div>
-                            <h3>Vishing via Microsoft Teams Facilitates DarkGate Malware Intrusion</h3>
-                            <span>Co-authored · December 14, 2024</span>
-                        </div>
-                        <span class="arrow">→</span>
-                    </a>
-
-                </div>
+        <a class="publication"
+           href="https://www.trendmicro.com/en_us/research/26/c/kongtuke-clickfix-abuse-of-compromised-wordpress-sites.html"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div>
+                <h3>Through the Lens of MDR: Analysis of KongTuke’s ClickFix Abuse of Compromised WordPress Sites</h3>
+                <span>Co-authored · March 10, 2026</span>
             </div>
-        </section>
+            <span class="arrow">→</span>
+        </a>
 
-
-        <!-- AREAS OF RESEARCH -->
-
-        <section id="expertise">
-            <div class="container">
-
-                <div class="section-heading">
-                    <p class="section-label">EXPERTISE</p>
-                    <h2>Areas of Research</h2>
-                </div>
-
-                <div class="tags">
-
-                    <span class="tag">Digital Forensics & Incident Response</span>
-                    <span class="tag">Threat Research</span>
-                    <span class="tag">Malware Analysis</span>
-                    <span class="tag">Incident Response</span>
-                    <span class="tag">Threat Hunting</span>
-                    <span class="tag">Detection & Response</span>
-                    <span class="tag">Business Email Compromise</span>
-                    <span class="tag">Adversary-in-the-Middle</span>
-                    <span class="tag">Phishing & Vishing</span>
-                    <span class="tag">Credential & Session Token Theft</span>
-                    <span class="tag">MFA Bypass</span>
-                    <span class="tag">Malware Delivery & Execution</span>
-                    <span class="tag">Ransomware</span>
-                    <span class="tag">ClickFix</span>
-                    <span class="tag">Web Shells</span>
-                    <span class="tag">Cloud & Microsoft 365 Security</span>
-                    <span class="tag">Data Exfiltration</span>
-
-                </div>
+        <a class="publication"
+           href="https://www.trendmicro.com/en_us/research/25/b/black-basta-cactus-ransomware-backconnect.html"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div>
+                <h3>Black Basta and Cactus Ransomware Groups Add BackConnect Malware to Their Arsenal</h3>
+                <span>Co-authored · March 3, 2025</span>
             </div>
-        </section>
+            <span class="arrow">→</span>
+        </a>
 
-
-        <!-- LINKS -->
-
-        <section id="links" class="alternate">
-            <div class="container">
-
-                <div class="section-heading">
-                    <p class="section-label">CONNECT</p>
-                    <h2>Professional Links</h2>
-                </div>
-
-                <div class="links">
-
-                    <a href="https://www.linkedin.com/in/jovitsamaniego/"
-                       class="button primary"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
-
-                    <a href="https://github.com/samaniegojovit-dfir"
-                       class="button secondary"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        GitHub
-                    </a>
-
-                </div>
-
-                <p class="publication-note">
-                    Research linked in this portfolio remains hosted by the respective
-                    original publishers.
-                </p>
-
+        <a class="publication"
+           href="https://www.trendmicro.com/en_us/research/25/a/investigating-a-web-shell-intrusion-with-trend-micro--managed-xd.html"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div>
+                <h3>Investigating A Web Shell Intrusion With Trend Micro™ Managed XDR</h3>
+                <span>Co-authored · January 15, 2025</span>
             </div>
-        </section>
+            <span class="arrow">→</span>
+        </a>
 
-    </main>
+        <a class="publication"
+           href="https://www.trendmicro.com/en_us/research/24/l/darkgate-malware.html"
+           target="_blank"
+           rel="noopener noreferrer">
+            <div>
+                <h3>Vishing via Microsoft Teams Facilitates DarkGate Malware Intrusion</h3>
+                <span>Co-authored · December 14, 2024</span>
+            </div>
+            <span class="arrow">→</span>
+        </a>
 
+    </div>
+</div>
+```
 
-    <footer>
-        <div class="container">
-            <p>© 2026 Jovit Samaniego · DFIR & Threat Research</p>
-        </div>
-    </footer>
+</section>
+
+<section id="expertise">
+    <div class="container">
+
+```
+    <div class="section-heading">
+        <div class="section-label">EXPERTISE</div>
+        <h2>Areas of Research</h2>
+    </div>
+
+    <div class="tags">
+        <span class="tag">Digital Forensics & Incident Response</span>
+        <span class="tag">Threat Research</span>
+        <span class="tag">Malware Analysis</span>
+        <span class="tag">Incident Response</span>
+        <span class="tag">Threat Hunting</span>
+        <span class="tag">Detection & Response</span>
+        <span class="tag">Business Email Compromise</span>
+        <span class="tag">Adversary-in-the-Middle</span>
+        <span class="tag">Phishing & Vishing</span>
+        <span class="tag">Credential & Session Token Theft</span>
+        <span class="tag">MFA Bypass</span>
+        <span class="tag">Malware Delivery & Execution</span>
+        <span class="tag">Ransomware</span>
+        <span class="tag">ClickFix</span>
+        <span class="tag">Web Shells</span>
+        <span class="tag">Cloud & Microsoft 365 Security</span>
+        <span class="tag">Data Exfiltration</span>
+    </div>
+
+</div>
+```
+
+</section>
+
+<section id="links" class="alternate">
+    <div class="container">
+
+```
+    <div class="section-heading">
+        <div class="section-label">CONNECT</div>
+        <h2>Professional Links</h2>
+    </div>
+
+    <div class="links">
+
+        <a href="https://www.linkedin.com/in/jovitsamaniego/"
+           class="button primary"
+           target="_blank"
+           rel="noopener noreferrer">
+            LinkedIn
+        </a>
+
+        <a href="https://github.com/samaniegojovit-dfir"
+           class="button secondary"
+           target="_blank"
+           rel="noopener noreferrer">
+            GitHub
+        </a>
+
+    </div>
+
+    <p class="publication-note">
+        Research linked in this portfolio remains hosted by the respective original publishers.
+    </p>
+
+</div>
+```
+
+</section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Jovit Samaniego · DFIR & Threat Research</p>
+    </div>
+</footer>
 
 </body>
 </html>
-```
