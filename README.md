@@ -1,10 +1,5 @@
 # DFIR-portfolio
 DFIR and threat research portfolio featuring published research, incident response analysis, and cybersecurity investigations.
-# DFIR & Threat Research Portfolio
-
-A professional portfolio showcasing threat research, digital forensics and incident response (DFIR), malware analysis, and cybersecurity investigations.
-
-## Threat Research
 
 ## Highlighted Threat Research
 
@@ -39,13 +34,6 @@ Research into Water Curse's use of open-source malware and GitHub as part of a m
 
 ---
 
-## Authored Research
-
-**How AiTM Phishing Bypassed MFA to Hijack a Microsoft 365 Mailbox in BEC Scheme** — *August 14, 2026*
-[Read the research](https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-aitm-phishing-bypassed-mfa-to-hijack-a-microsoft-365-mailbox-in-bec-scheme)
-
----
-
 ## Co-authored Research
 
 **Inside SHADOW-WATER-063’s Banana RAT: From Build Server to Banking Fraud** — *May 19, 2026*
@@ -60,17 +48,12 @@ Research into Water Curse's use of open-source malware and GitHub as part of a m
 **Black Basta and Cactus Ransomware Groups Add BackConnect Malware to Their Arsenal** — *March 3, 2025*
 [Read the research](https://www.trendmicro.com/en_us/research/25/b/black-basta-cactus-ransomware-backconnect.html)
 
-**Lumma Stealer’s GitHub-Based Delivery Explored via Managed Detection and Response** — *January 30, 2025*
-[Read the research](https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html)
-
 **Investigating a Web Shell Intrusion With Trend Micro™ Managed XDR** — *January 15, 2025*
 [Read the research](https://www.trendmicro.com/en_us/research/25/a/investigating-a-web-shell-intrusion-with-trend-micro--managed-xd.html)
 
 **Vishing via Microsoft Teams Facilitates DarkGate Malware Intrusion** — *December 14, 2024*
 [Read the research](https://www.trendmicro.com/en_us/research/24/l/darkgate-malware.html)
 
-**Clone, Compile, Compromise: Water Curse’s Open-Source Malware Trap on GitHub** — *June 16, 2025*
-[Read the research](https://www.trendmicro.com/en_us/research/25/f/water-curse.html)
 
 ---
 
