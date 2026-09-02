@@ -28,8 +28,6 @@ Investigation into Lumma Stealer's use of GitHub-based infrastructure for malwar
 
 [Read the research](https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html)
 
-[Read the research](https://www.trendmicro.com/en_us/research/25/a/lumma-stealers-github-based-delivery-via-mdr.html)
-
 **Clone, Compile, Compromise: Water Curse’s Open-Source Malware Trap on GitHub**
 *June 16, 2025*
 
