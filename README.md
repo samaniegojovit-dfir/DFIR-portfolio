@@ -69,3 +69,5 @@ Research into Water Curse's use of open-source malware and GitHub as part of a m
 This repository serves as a portfolio and index of publicly available research. All research linked in this repository remains hosted by the respective original publishers.
 
 For professional inquiries or additional information, please refer to my professional profile.
+* [LinkedIn](https://www.linkedin.com/in/jovitsamaniego/)
+
